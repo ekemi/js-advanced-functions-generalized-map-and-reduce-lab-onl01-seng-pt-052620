@@ -11,7 +11,7 @@ let fn = function(arr){
   })
   return empty;
 }
-let fnn = function(arr){
+let fon = function(arr){
   let empty = []
   arr.forEach(ar =>{
     return (empty.push(ar*2));
