@@ -10,15 +10,3 @@ let fn = function(arr){
   })
   return empty;
 }
-
-const map = function(arr, f ){
-  return f(arr)
-}
-
-let f = function(arr){
-  let empty = []
-  arr.forEach(ar =>{
-    return (empty.push(ar*2));
-  })
-  return empty;
-}
