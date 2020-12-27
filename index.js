@@ -1,7 +1,7 @@
 // Add your functions here
-const map = function(arr, fn, fon ){
-  return fn();
-  return fon();
+const map = function(arr ){
+  return fn(arr);
+  return fon(arr);
 }
 
 let fn = function(arr){
