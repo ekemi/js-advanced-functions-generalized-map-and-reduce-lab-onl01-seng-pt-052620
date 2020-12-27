@@ -4,14 +4,14 @@ const map = function(arr ){
   return fon(arr);
 }
 
-let fn = function(arr){
+function fn (arr){
   let empty = []
   arr.forEach(ar =>{
     return (empty.push(ar*-1));
   })
   return empty;
 }
-let fon = function(arr){
+ function fon (arr){
   let empty = []
   arr.forEach(ar =>{
     return (empty.push(ar));
