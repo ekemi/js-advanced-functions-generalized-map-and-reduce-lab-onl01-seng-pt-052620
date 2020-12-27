@@ -10,7 +10,12 @@ let fn = function(arr){
   })
   return empty;
 }
-let fn = function(arr){
+
+const map = function(arr, f ){
+  return f(arr)
+}
+
+let f = function(arr){
   let empty = []
   arr.forEach(ar =>{
     return (empty.push(ar*2));
