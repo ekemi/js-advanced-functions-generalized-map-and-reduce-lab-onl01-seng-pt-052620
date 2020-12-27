@@ -1,5 +1,5 @@
 // Add your functions here
-const map = function(arr, fn{
+const map = function(arr, fn ){
   return fn(arr)
 }
 
