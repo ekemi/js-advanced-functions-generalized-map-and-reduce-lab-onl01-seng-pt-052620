@@ -10,3 +10,10 @@ let fn = function(arr){
   })
   return empty;
 }
+let fn = function(arr){
+  let empty = []
+  arr.forEach(ar =>{
+    return (empty.push(ar*2));
+  })
+  return empty;
+}
