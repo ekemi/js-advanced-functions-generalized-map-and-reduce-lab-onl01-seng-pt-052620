@@ -14,7 +14,7 @@ let fn = function(arr){
 let fon = function(arr){
   let empty = []
   arr.forEach(ar =>{
-  (empty.push(ar));
+    return (empty.push(ar));
   })
   return empty;
 }
